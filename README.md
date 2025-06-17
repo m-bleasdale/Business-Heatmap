@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Business Location Heatmap
 
-## Getting Started
+This tool overlays the locations of all businesses registered with the UK Food Standards Agency onto a map. The density of businesses can be visualised using a heatmap.
 
-First, run the development server:
+Two modes are available:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Heatmap - the recommended way to view the data. Shows the location and geographical density of businesses.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Points - each business is shown on the map with a single point.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This tool can be used to very quickly see urban city-centers, culture hubs, etc.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The region and business type can also be configured.
 
-## Learn More
+![image](https://github.com/user-attachments/assets/a1c9c1da-5f3b-4782-833d-91c4d217a924)
 
-To learn more about Next.js, take a look at the following resources:
+## Examples
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image](https://github.com/user-attachments/assets/4b85345b-c5e1-4fd1-ad69-0c94a1445e38)
+_All businesses in the Cardiff region. Shown using a heatmap._
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![HeatmapEditted](https://github.com/user-attachments/assets/949cc2fb-c6de-4cda-848e-97d56f97d64d)
+_With the same settings as above, key eating and drinking areas can be clearly seen. They are marked in the image._
 
-## Deploy on Vercel
+![image](https://github.com/user-attachments/assets/ec088394-b9a1-49f6-a5b1-bf5206ccc659)
+_Businesses of type "Takeaway" shown in the Cardiff region. Using the points mode._
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![image](https://github.com/user-attachments/assets/6fda5976-29eb-444a-af87-97d608d78964)
+_All hotels in the Westminster region of London. Hotels around Paddington Station are clearly visible._
