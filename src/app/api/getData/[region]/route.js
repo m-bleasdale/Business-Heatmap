@@ -9,7 +9,7 @@ export async function GET(req, { params }) {
     const placeType = url.searchParams.get('placeType');
     
     try{
-        const filePath = `./src/data/${region}.xml`;
+        const filePath = `./public/data/${region}.xml`;
         const xml = fs.readFileSync(filePath, 'utf-8');
 
         const data = await parseStringPromise(xml, {
