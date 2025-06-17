@@ -12,8 +12,6 @@ This tool can be used to very quickly see urban city-centers, culture hubs, etc.
 
 The region and business type can also be configured.
 
-![image](https://github.com/user-attachments/assets/a1c9c1da-5f3b-4782-833d-91c4d217a924)
-
 ## Examples
 
 ![image](https://github.com/user-attachments/assets/4b85345b-c5e1-4fd1-ad69-0c94a1445e38)
