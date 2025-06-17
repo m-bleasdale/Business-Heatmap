@@ -1,5 +1,7 @@
 # Business Location Heatmap
 
+[https://business-heatmap.vercel.app/](url)
+
 This tool overlays the locations of all businesses registered with the UK Food Standards Agency onto a map. The density of businesses can be visualised using a heatmap.
 
 Two modes are available:
