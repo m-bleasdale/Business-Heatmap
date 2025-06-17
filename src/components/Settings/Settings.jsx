@@ -57,7 +57,7 @@ export default function Settings ({onConfirm}) {
         <div className="h-screen flex flex-col gap-5 items-center justify-center">
             <div className="flex flex-col gap-2">
                 <h1 className="text-2xl text-center font-semibold">Business Location Hotspot</h1>
-                <p className="text-lg text-center">Built by M Bleasdale</p>
+                <p className="text-lg text-center">Built by <a href="https://github.com/m-bleasdale" className="underline text-primary">M Bleasdale</a></p>
             </div>
             <div className="flex flex-col gap-2 w-[220px]">
                 <label>Region</label>
