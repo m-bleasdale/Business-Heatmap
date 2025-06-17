@@ -17,11 +17,14 @@ The region and business type can also be configured.
 ![image](https://github.com/user-attachments/assets/4b85345b-c5e1-4fd1-ad69-0c94a1445e38)
 _All businesses in the Cardiff region. Shown using a heatmap._
 
+
 ![HeatmapEditted](https://github.com/user-attachments/assets/949cc2fb-c6de-4cda-848e-97d56f97d64d)
 _With the same settings as above, key eating and drinking areas can be clearly seen. They are marked in the image._
 
+
 ![image](https://github.com/user-attachments/assets/ec088394-b9a1-49f6-a5b1-bf5206ccc659)
 _Businesses of type "Takeaway" shown in the Cardiff region. Using the points mode._
+
 
 ![image](https://github.com/user-attachments/assets/6fda5976-29eb-444a-af87-97d608d78964)
 _All hotels in the Westminster region of London. Hotels around Paddington Station are clearly visible._
