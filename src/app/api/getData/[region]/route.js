@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 
 import fs from 'fs';
+import path from 'path';
 import { parseStringPromise } from 'xml2js';
 
 export async function GET(req, { params }) {
@@ -9,7 +10,7 @@ export async function GET(req, { params }) {
     const placeType = url.searchParams.get('placeType');
     
     try{
-        const filePath = `./public/data/${region}.xml`;
+        const filePath = path.join(process.cwd(), 'public', 'data', `${region}.xml`);
         const xml = fs.readFileSync(filePath, 'utf-8');
 
         const data = await parseStringPromise(xml, {
