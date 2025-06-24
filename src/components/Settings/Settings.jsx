@@ -81,7 +81,12 @@ export default function Settings ({onConfirm}) {
                         </SelectGroup>
                         <SelectGroup>
                             <SelectLabel>South West England</SelectLabel>
-                        <SelectItem value="Bath">Bath</SelectItem>
+                            <SelectItem value="Bath">Bath</SelectItem>
+                            <SelectItem value="Bristol">Bristol</SelectItem>
+                        </SelectGroup>
+                        <SelectGroup>
+                            <SelectLabel>South East England</SelectLabel>
+                            <SelectItem value="BrightonHove">Brighton and Hove</SelectItem>
                         </SelectGroup>
                     </SelectContent>
                 </Select>
