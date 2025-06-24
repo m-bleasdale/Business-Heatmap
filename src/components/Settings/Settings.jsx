@@ -47,7 +47,9 @@ export default function Settings ({onConfirm}) {
             "Swansea": [51.6214, -3.9436],
             "Bath": [51.3781, -2.3597],
             "KensingtonChelsea": [51.4953, -0.1790],
-            "Westminster": [51.494720, -0.135278]
+            "Westminster": [51.494720, -0.135278],
+            "Bristol": [51.4545, -2.5879],
+            "Brighton": [50.8212, -0.1465]
         }
 
         return centers[region];
