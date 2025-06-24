@@ -49,7 +49,7 @@ export default function Settings ({onConfirm}) {
             "KensingtonChelsea": [51.4953, -0.1790],
             "Westminster": [51.494720, -0.135278],
             "Bristol": [51.4545, -2.5879],
-            "Brighton": [50.8212, -0.1465]
+            "BrightonHove": [50.8212, -0.1465]
         }
 
         return centers[region];
